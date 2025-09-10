@@ -4,4 +4,4 @@
 Этот репозиторий является каркасом для будущего веб-приложения.
 
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://6vi6-vi.github.io/my-awesome-project/src/?v=1)
+- [Публичная страница на GitHub Pages](https://6vi6-vi.github.io/my-awesome-project/src/)
