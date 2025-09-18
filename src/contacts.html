@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная - Название вашего сайта</title>
     <meta name="description" content="Краткое описание главной страницы вашего сайта">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <title>Контакты - Название вашего сайта</title>
     <meta name="description" content="Контакты наших сотрудников">
 </head>
 <body>
-    <header>
+    <header> 
         <a href="/">Логотип или название сайта</a>
         <!-- Главное меню навигации -->
         <nav>
@@ -31,12 +32,35 @@
 
         <h1>Контакты</h1>
         <section>
-            <h2>Новикова Елена Викторовна</h2>
-            <p>Телефон: +7 (900) 777-77-77</p>
+            <h2>Дотторе (Доктор) - Номер два из Предвестников Фатуи</h2>
+            <p>Телефон: +7 (900) 222-22-22</p>
+            <!-- Браузер сам выбирает лучший ресурс по ширине контейнера -->
+            <img
+                src="../assets/dottore.jpg"
+                srcset="../assets/dottore_small.jpg 271w, 
+                        ../assets/dottore_medium.jpg 407w, 
+                        ../assets/dottore.jpg 542w"
+                sizes="(max-width: 360px) 92vw, (max-width: 640px) 80vw, 542px"
+                alt="Дотторе"
+                loading="lazy">
         </section>
         <section>
-            <h2>Мещеряков Артём Алексеевич</h2>
-            <p>Телефон: +7 (900) 222-22-22</p>
+            <h2>Панталоне (Делец) - Номер девять из Предвестников Фатуи</h2>
+            <p>Телефон: +7 (900) 999-99-99</p>
+            <img 
+                src="../assets/pantalone.jpg"
+                alt="Панталоне"
+                width="621" height="558"
+                loading="lazy" decoding="async">
+        </section>
+        <section>
+            <h2>Тарталья (Чайльд) - Номер одиннадцать из Предвестников Фатуи</h2>
+            <p>Телефон: +7 (900) 111-11-11</p>
+            <img 
+                src="../assets/tartaglia.jpg"
+                alt="Тарталья"
+                width="409" height="600"
+                loading="lazy" decoding="async">
         </section>
     </main>
 

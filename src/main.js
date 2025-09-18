@@ -45,3 +45,4 @@ form?.addEventListener('submit', (e) => {
 
 dlg.addEventListener('close', () => { lastActive?.focus(); });
 // Esc по умолчанию вызывает событие 'cancel' и закрывает <dialog>
+
